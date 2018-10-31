@@ -37,7 +37,7 @@ Ten en cuenta que que incluso si tu librería inmutable soporta punteros, no deb
 
 [Baobab](https://github.com/Yomguithereal/baobab) es otra popular librería para implementar inmutabilidad para actualizar objetos planos en JavaScript. Aunque puedes usarlo con Redux, hay muy pocos beneficios de usarlos juntos.
 
-La mayorías de las funcionalidades que provee Baobab están relacionados con actualizar los datos con punteros, pero Redux impone que la única forma de actualizar los datos es despachando acciones. Por lo tanto, resuelven el mismo problema de forma diferente, y no se complementar uno con otro.
+La mayorías de las funcionalidades que provee Baobab están relacionados con actualizar los datos con punteros, pero Redux impone que la única forma de actualizar los datos es despachando acciones. Por lo tanto, resuelven el mismo problema de forma diferente, y no se complementan uno con otro.
 
 A diferencia de Immutable, Baobab todavía no implemente ninguna estructura de datos especialmente eficiente, así que no ganas nada realmente por usarlo junto a Redux. Es más fácil simplemente usar objetos planos en su lugar.
 
